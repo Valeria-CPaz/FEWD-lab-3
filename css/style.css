@@ -2,8 +2,9 @@ body {
     margin: 0;
 }
 
-#cat_image {
-    width: 30%; 
+#BG_image {
+    margin: auto; 
+    width: 100%;
 }
 
 .navigation ul {
@@ -11,11 +12,11 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #090934;
+    background-color: #FED777;
     position: fixed;
     top: 0;
     width: 100%;
-    border-bottom: 5px solid #151599;
+    border-bottom: 5px solid #342809;
 }
 
 .navigration li {
@@ -24,19 +25,19 @@ body {
 
 .navigation li a {
     display: block;
-    color: white;
+    color: #342809;
     text-align: center;
     padding: 24px 50px;
     text-decoration: none;
 }
 
 .navigation a.active {
-    background-color: #151599;
+    background-color: #A77802;
 }
 
 .content {
     margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    left: auto;
+    right: auto;
 }
 
